@@ -1,4 +1,4 @@
-import 'package:api_fetching/home.dart';
+import 'package:api_fetching/Screen/HomeScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
 

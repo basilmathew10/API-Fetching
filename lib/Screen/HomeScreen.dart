@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'dart:ffi';
 
-import 'package:api_fetching/model.dart';
+import 'package:api_fetching/Model/Model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 Future<List<Person>> fetchPersons() async {
